@@ -18,6 +18,11 @@ docker exec -it vue_docker_vue_1 sh #ログイン
 ```
 /app # vue init webpack (data/www以下にwebpackの諸々が生成)
 /app # npm install (モジュールのインストール)
+```
+
+### srcファイルのコンパイル
+
+```
 /app # npm run build  (data/www/distディレクトリが生成。ここにvueのwelcome pageができる。localhost:9000でアクセス。)
 ```
 
