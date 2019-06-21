@@ -1,6 +1,3 @@
-# 参考記事
-https://qiita.com/akashixi/items/2ebe9404c64a8854b4e5
-
 # buildまでの手順
 Dockerfileをvue, nginxごとに作成し、ルートにあるdocker-composeで紐付け。
 そのあとはvueのコンテナに入り、以下のコマンドでwebpackなどなどインストール。
