@@ -1,0 +1,16 @@
+version: '3'
+services:
+  # nginxコンテナ
+  nginx:
+    build: ./nginx # dockerfileのありかを指定
+    ports:
+      - '9000:80'
+    volumes:
+      - ./data/www:/var/www/html
+      - ./nginx/server.conf:/etc/nginx/nginx.conf
+
+  vue:
+    build: ./vue # dockerfileのありかを指定
+    volumes:
+      - ./data/www:/app
+    tty: true
