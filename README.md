@@ -22,10 +22,13 @@ data/www以下にwebpackの諸々が生成 webpack+vue-louder( Vue コンポー
 ```
 モジュールのインストール
 data/www/distディレクトリが生成。
+
 webpackを通してコンパイルされた生成物がここにできる(vueのwelcome page)localhost:9000でアクセス。
 
 ・コーディングはsrc以下
+
 ・変更したら npm run script
+
 ・プリコンパイルみたいに圧縮してコンパイルってしたものがdist以下に入る(localhostで表示するもの)
 
 ## 次回以降
