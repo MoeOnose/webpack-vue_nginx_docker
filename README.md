@@ -28,4 +28,5 @@ webpackを通してコンパイルされた生成物がここにできる(vueの
 ・変更したら npm run script
 ・プリコンパイルみたいに圧縮してコンパイルってしたものがdist以下に入る(localhostで表示するもの)
 
-##次回以降 docker-compose up のみでおっけ
+## 次回以降
+docker-compose up のみでおっけ
